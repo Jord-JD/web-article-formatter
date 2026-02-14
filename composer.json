@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "DivineOmega\\WebArticleFormatter\\": "./src/"
+      "JordJD\\WebArticleFormatter\\": "./src/"
     }
   },
   "replace": {
@@ -24,7 +24,8 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0-dev"
+      "dev-master": "3.0-dev"
     }
-  }
+  },
+  "require-dev": {}
 }

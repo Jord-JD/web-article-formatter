@@ -1,9 +1,9 @@
 <?php
 
-namespace DivineOmega\WebArticleFormatter\ArticleParts;
+namespace JordJD\WebArticleFormatter\ArticleParts;
 
-use DivineOmega\WebArticleFormatter\Format;
-use DivineOmega\WebArticleFormatter\Interfaces\ArticlePartInterface;
+use JordJD\WebArticleFormatter\Format;
+use JordJD\WebArticleFormatter\Interfaces\ArticlePartInterface;
 
 class Heading implements ArticlePartInterface
 {

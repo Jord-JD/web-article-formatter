@@ -1,8 +1,8 @@
 <?php
 
-namespace DivineOmega\WebArticleFormatter;
+namespace JordJD\WebArticleFormatter;
 
-use DivineOmega\WebArticleFormatter\Interfaces\ArticlePartInterface;
+use JordJD\WebArticleFormatter\Interfaces\ArticlePartInterface;
 use Dompdf\Dompdf;
 
 class Article

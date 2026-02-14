@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\WebArticleFormatter;
+namespace JordJD\WebArticleFormatter;
 
 class WebArticleFormatter
 {

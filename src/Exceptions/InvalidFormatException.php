@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\WebArticleFormatter\Exceptions;
+namespace JordJD\WebArticleFormatter\Exceptions;
 
 class InvalidFormatException extends \InvalidArgumentException
 {

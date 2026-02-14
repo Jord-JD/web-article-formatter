@@ -1,10 +1,10 @@
 <?php
 
-namespace DivineOmega\WebArticleFormatter\ArticleParts;
+namespace JordJD\WebArticleFormatter\ArticleParts;
 
-use DivineOmega\WebArticleFormatter\Exceptions\InvalidFormatException;
-use DivineOmega\WebArticleFormatter\Format;
-use DivineOmega\WebArticleFormatter\Interfaces\ArticlePartInterface;
+use JordJD\WebArticleFormatter\Exceptions\InvalidFormatException;
+use JordJD\WebArticleFormatter\Format;
+use JordJD\WebArticleFormatter\Interfaces\ArticlePartInterface;
 
 class Paragraph implements ArticlePartInterface
 {

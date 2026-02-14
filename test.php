@@ -1,7 +1,7 @@
 <?php
 
-use DivineOmega\WebArticleFormatter\Format;
-use DivineOmega\WebArticleFormatter\WebArticleFormatter;
+use JordJD\WebArticleFormatter\Format;
+use JordJD\WebArticleFormatter\WebArticleFormatter;
 
 require_once __DIR__.'/vendor/autoload.php';
 

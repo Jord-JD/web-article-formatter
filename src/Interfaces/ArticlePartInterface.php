@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\WebArticleFormatter\Interfaces;
+namespace JordJD\WebArticleFormatter\Interfaces;
 
 interface ArticlePartInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace DivineOmega\WebArticleFormatter;
+namespace JordJD\WebArticleFormatter;
 
-use DivineOmega\WebArticleFormatter\ArticleParts\Heading;
-use DivineOmega\WebArticleFormatter\ArticleParts\Paragraph;
+use JordJD\WebArticleFormatter\ArticleParts\Heading;
+use JordJD\WebArticleFormatter\ArticleParts\Paragraph;
 use GuzzleHttp\Client;
 
 class ArticleRetriever
