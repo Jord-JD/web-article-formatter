@@ -1,22 +1,30 @@
 {
-    "name": "divineomega/web-article-formatter",
-    "description": "Web Article Formatter",
-    "type": "library",
-    "license": "LGPL-3.0-only",
-    "authors": [
-        {
-            "name": "Jordan Hall",
-            "email": "jordan@hall05.co.uk"
-        }
-    ],
-    "require": {
-        "ext-dom": "*",
-        "guzzlehttp/guzzle": "^6.3",
-        "dompdf/dompdf": "^0.8.2"
-    },
-    "autoload": {
-        "psr-4": {
-            "DivineOmega\\WebArticleFormatter\\": "./src/"
-        }
+  "name": "jord-jd/web-article-formatter",
+  "description": "Web Article Formatter",
+  "type": "library",
+  "license": "LGPL-3.0-only",
+  "authors": [
+    {
+      "name": "Jordan Hall",
+      "email": "jordan@hall05.co.uk"
     }
+  ],
+  "require": {
+    "ext-dom": "*",
+    "guzzlehttp/guzzle": "^6.3",
+    "dompdf/dompdf": "^0.8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "DivineOmega\\WebArticleFormatter\\": "./src/"
+    }
+  },
+  "replace": {
+    "divineomega/web-article-formatter": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  }
 }

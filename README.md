@@ -10,7 +10,7 @@ including PDF, markdown, JSON, plain text and more.
 You can install Web Article Formatter via Composer. Just run the following command.
 
 ```
-composer require divineomega/web-article-formatter
+composer require jord-jd/web-article-formatter
 ```
 
 ## Usage
