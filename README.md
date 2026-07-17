@@ -1,6 +1,5 @@
 # 🌐🔀📰 Web Article Formatter
 
-[![StyleCI](https://styleci.io/repos/126647242/shield?branch=master)](https://styleci.io/repos/126647242)
 
 The web article formatter can extract and convert an article from a webpage into a number of other formats, 
 including PDF, markdown, JSON, plain text and more.
