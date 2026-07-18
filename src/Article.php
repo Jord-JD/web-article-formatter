@@ -47,8 +47,8 @@ class Article
         $jsonObjs = [];
 
         foreach ($this->parts as $part) {
-            $jsonObj = $part;
-            $jsonObj->type = (new \ReflectionClass($part))->getShortName();
+            $jsonObj = get_object_vars($part);
+            $jsonObj['type'] = (new \ReflectionClass($part))->getShortName();
             $jsonObjs[] = $jsonObj;
         }
 
