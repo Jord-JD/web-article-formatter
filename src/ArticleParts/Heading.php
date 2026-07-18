@@ -2,6 +2,7 @@
 
 namespace JordJD\WebArticleFormatter\ArticleParts;
 
+use JordJD\WebArticleFormatter\Exceptions\InvalidFormatException;
 use JordJD\WebArticleFormatter\Format;
 use JordJD\WebArticleFormatter\Interfaces\ArticlePartInterface;
 

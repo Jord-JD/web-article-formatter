@@ -28,7 +28,7 @@ class Paragraph implements ArticlePartInterface
                 break;
 
             case Format::HTML:
-                return '<p>'.$this->content.'</p>'.PHP_EOL;
+                return '<p>'.htmlentities($this->content, ENT_QUOTES, 'UTF-8').'</p>'.PHP_EOL;
                 break;
 
             default:

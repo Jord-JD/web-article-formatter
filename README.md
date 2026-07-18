@@ -1,5 +1,6 @@
 # 🌐🔀📰 Web Article Formatter
 
+[![Tests](https://github.com/Jord-JD/web-article-formatter/actions/workflows/tests.yml/badge.svg)](https://github.com/Jord-JD/web-article-formatter/actions/workflows/tests.yml)
 
 The web article formatter can extract and convert an article from a webpage into a number of other formats, 
 including PDF, markdown, JSON, plain text and more.

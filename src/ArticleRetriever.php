@@ -5,14 +5,15 @@ namespace JordJD\WebArticleFormatter;
 use JordJD\WebArticleFormatter\ArticleParts\Heading;
 use JordJD\WebArticleFormatter\ArticleParts\Paragraph;
 use GuzzleHttp\Client;
+use GuzzleHttp\ClientInterface;
 
 class ArticleRetriever
 {
     private $client;
 
-    public function __construct()
+    public function __construct(ClientInterface $client = null)
     {
-        $this->client = new Client([
+        $this->client = $client ?: new Client([
             'timeout'  => 10,
         ]);
     }
@@ -22,10 +23,12 @@ class ArticleRetriever
         $response = $this->client->request('GET', $url);
         $body = (string) $response->getBody();
 
-        libxml_use_internal_errors(true);
+        $previousLibxmlErrorSetting = libxml_use_internal_errors(true);
 
         $domDoc = new \DOMDocument();
         $domDoc->loadHTML('<?xml version="1.0" encoding="UTF-8"?>'.$body);
+        libxml_clear_errors();
+        libxml_use_internal_errors($previousLibxmlErrorSetting);
 
         $article = new Article();
 
